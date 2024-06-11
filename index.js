@@ -12,7 +12,7 @@ app.use(cors({
 }));
 
 // Connect to MongoDB
-// connectDB();
+connectDB();
 
 // Init Middleware
 app.use(express.json());
